@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: go-simple-app
-          image: flleonx/go-simple-app
+          image: flleonx/go-simple-app:v2
           env:
             - name: DB-TEST
               valueFrom:
